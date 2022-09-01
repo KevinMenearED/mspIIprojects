@@ -86,7 +86,7 @@ min(a) returns the minimum value in the list
 
 .clear() -- clears the list of all contents
 
-**Project_02 -- Shopping Cart**
+# Project_02 -- Shopping Cart
 Make a 2-dimensional list of items & their prices--
 items = [
   ['apple',4.99],
@@ -102,13 +102,14 @@ At the end, print out the user's shopping list and total cost.
 
 Ask the user if they'd like to remove something, if they say yes, ask what item they want to remove, remove that object, and decrease the cost by the price of that object.
 
-**if** conditions:
+# Conditionals
+**if conditions**:
 if true:
     do this
 
 == equal to
 
-**else** conditions
+**else conditions**
 Must follow an if conditional
 
 if (a):
@@ -116,25 +117,14 @@ if (a):
 else:
   do this
 
-**elif** conditions
+**elif conditions**
 (short for else if)
 
-**while loops**
+# while loops
 while(true):
   do this
 
-
-**PROJECT: Math Calc**
-While loops & if/elif/else conditions & dictionaries
-- Pick 2-3 real-world formulas
-  - Example: F = m*a
-- Ask user which formula they would like to solve/a solution for
-- Ask user which variable they want to solve for (target)
-- Ask user to input all other variables
-- Solve the formula for the target variable
-- Output solution to user
-
-**Dictionaries**
+# Dictionaries
 Stores values (information) that can be accessed with specific keys.
 dictionary = {'key1': value1, 'key2': value2, ...}
 access dictionary values by key:
@@ -155,6 +145,17 @@ products = {'apple': 3, 'banana': 2, 'carrot': 4}
 for name, cost in products.items():
     print(name, cost)
 
-**Tuple**
+# Tuple
 (1,2,3,4)
 x, y = (10,-3)
+
+# PROJECT 03: Math Calc
+While loops & if/elif/else conditions & dictionaries
+- Pick 2-3 real-world formulas
+  - Example: F = m*a
+- Ask user which formula they would like to solve/a solution for
+- Ask user which variable they want to solve for (target)
+- Ask user to input all other variables
+- Solve the formula for the target variable
+- Output solution to user
+
